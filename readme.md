@@ -7,3 +7,10 @@ A boilerplate for creating static web projects using Vite.js and TypeScript
 
 - [x] Pug compiling
 - [x] JavaScript build
+- [x] Styles:
+  - [x] SCSS compiling
+  - [ ] Autoprefixer
+  - [ ] Grouping media queries
+- [ ] Linters
+  - [ ] Stylelint
+  - [ ] ESLint
