@@ -1,0 +1,16 @@
+{
+  "name": "vite-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for creating static web projects using Vite.js and TypeScript",
+  "type": "module",
+  "keywords": [
+    "vite",
+    "typescript",
+    "boilerplate",
+    "pug",
+    "sass",
+    "postcss"
+  ],
+  "author": "Serhii Mykulyn <serhiimykulyn@gmail.com>",
+  "license": "MIT"
+}
