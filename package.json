@@ -16,10 +16,15 @@
         "sass",
         "postcss"
     ],
+    "browserslist": [
+        "last 5 versions"
+    ],
     "author": "Serhii Mykulyn <serhiimykulyn@gmail.com>",
     "license": "MIT",
     "devDependencies": {
+        "autoprefixer": "^10.4.19",
         "pathe": "^1.1.2",
+        "postcss": "^8.4.38",
         "sass": "^1.72.0",
         "vite": "^5.2.7",
         "vite-plugin-pug": "^0.3.2"
