@@ -12,5 +12,8 @@
     "postcss"
   ],
   "author": "Serhii Mykulyn <serhiimykulyn@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.2.7"
+  }
 }
