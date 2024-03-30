@@ -16,6 +16,8 @@ export default defineConfig({
         outDir: "../build",
         emptyOutDir: true,
         assetsDir: assetDir,
+        cssMinify: false, // Deactivate minify css
+        minify: false, // Deactivate minify javascript
         rollupOptions: {
             input: {
                 index: resolve(__dirname, "./src/index.html"),
