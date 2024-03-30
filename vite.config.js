@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
-import pugPlugin from "vite-plugin-pug";
 import { resolve } from "pathe";
+import vitePlugins from "./config/vite.plugins";
 
 import {
     processAssetFileNames,
@@ -10,7 +10,7 @@ import {
 } from "./config/vite.assets";
 
 export default defineConfig({
-    plugins: [pugPlugin({ pretty: true })],
+    plugins: vitePlugins,
     root: "src",
     build: {
         outDir: "../build",
