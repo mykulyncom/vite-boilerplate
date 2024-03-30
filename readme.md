@@ -5,4 +5,5 @@ A boilerplate for creating static web projects using Vite.js and TypeScript
 
 ## 🎉 Features
 
-- [x] 🐶 Pug compiling
+- [x] Pug compiling
+- [x] JavaScript build
