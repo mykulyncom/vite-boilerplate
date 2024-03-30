@@ -14,6 +14,9 @@ devDependencies:
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
+  postcss-sort-media-queries:
+    specifier: ^5.2.0
+    version: 5.2.0(postcss@8.4.38)
   sass:
     specifier: ^1.72.0
     version: 1.72.0
@@ -743,6 +746,16 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
+  /postcss-sort-media-queries@5.2.0(postcss@8.4.38):
+    resolution: {integrity: sha512-AZ5fDMLD8SldlAYlvi8NIqo0+Z8xnXU2ia0jxmuhxAU+Lqt9K+AlmLNJ/zWEnE9x+Zx3qL3+1K20ATgNOr3fAA==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      postcss: ^8.4.23
+    dependencies:
+      postcss: 8.4.38
+      sort-css-media-queries: 2.2.0
+    dev: true
+
   /postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
@@ -914,6 +927,11 @@ packages:
       get-intrinsic: 1.2.4
       gopd: 1.0.1
       has-property-descriptors: 1.0.2
+    dev: true
+
+  /sort-css-media-queries@2.2.0:
+    resolution: {integrity: sha512-0xtkGhWCC9MGt/EzgnvbbbKhqWjl1+/rncmhTh5qCpbYguXh6S/qwePfv/JQ8jePXXmqingylxoC49pCkSPIbA==}
+    engines: {node: '>= 6.3.0'}
     dev: true
 
   /source-map-js@1.2.0:
