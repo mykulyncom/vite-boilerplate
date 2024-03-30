@@ -9,7 +9,7 @@ A boilerplate for creating static web projects using Vite.js
 - [x] JavaScript build
 - [x] Styles:
   - [x] SCSS compiling
-  - [ ] Autoprefixer
+  - [x] Autoprefixer
   - [ ] Grouping media queries
 - [ ] Linters
   - [ ] Stylelint
