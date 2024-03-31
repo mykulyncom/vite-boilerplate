@@ -14,3 +14,11 @@ A boilerplate for creating static web projects using Vite.js
 - [x] Linters
   - [x] Stylelint
   - [ ] ESLint
+
+## 👥 Contributing
+
+Contributions are welcome! If you have suggestions, enhancements, or bug fixes, feel free to open an issue or create a pull request.
+
+## 📄 License
+
+This project is licensed under the [MIT License](/LICENSE). Feel free to use, modify, and distribute this code for personal or commercial projects.
