@@ -1,5 +1,9 @@
-import pugPlugin from "vite-plugin-pug";
+import vitePugPlugin from "vite-plugin-pug-transformer";
 
-const vitePlugins = [pugPlugin({ pretty: true })];
+const pugOptions = {
+    pretty: true,
+};
+
+const vitePlugins = [vitePugPlugin({ pugOptions: pugOptions })];
 
 export default vitePlugins;

@@ -32,9 +32,9 @@ devDependencies:
   vite:
     specifier: ^5.2.7
     version: 5.2.7(sass@1.72.0)
-  vite-plugin-pug:
-    specifier: ^0.3.2
-    version: 0.3.2
+  vite-plugin-pug-transformer:
+    specifier: ^1.0.5
+    version: 1.0.5(vite@5.2.7)
 
 packages:
 
@@ -1754,11 +1754,15 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-pug@0.3.2:
-    resolution: {integrity: sha512-Wqqdd8v7Hk+p+pJyVX+RzhRv6PN6yps17zNjx0Wx6P2/sd4KemWLIHAclNxq0sTKjlzxERWXaQn2E7kY71zeSg==}
+  /vite-plugin-pug-transformer@1.0.5(vite@5.2.7):
+    resolution: {integrity: sha512-FGtYP4kyn5ss/UnA1uikz+bX5zJVscPrBkSyrXeiZbhbh+qJCRwMHMy+mGv0I9xY0j6/iUCKk8AESUjnxQpBmw==}
+    engines: {node: '>=12.22.0'}
+    peerDependencies:
+      vite: ^2.5.10 || ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
       picocolors: 1.0.0
       pug: 3.0.2
+      vite: 5.2.7(sass@1.72.0)
     dev: true
 
   /vite@5.2.7(sass@1.72.0):
