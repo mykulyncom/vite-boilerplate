@@ -5,6 +5,7 @@ A boilerplate for creating static web projects using Vite.js
 
 ## 🎉 Features
 
+- [x] Nunjucks supports
 - [x] JavaScript build
 - [x] Styles:
   - [x] SCSS compiling
