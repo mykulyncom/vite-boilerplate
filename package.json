@@ -30,6 +30,7 @@
         "stylelint": "^16.3.1",
         "stylelint-config-recess-order": "^5.0.0",
         "stylelint-config-standard-scss": "^13.0.0",
-        "vite": "^5.2.7"
+        "vite": "^5.2.7",
+        "vite-plugin-nunjucks": "^0.2.0"
     }
 }
