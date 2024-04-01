@@ -19,9 +19,7 @@ export default defineConfig({
         cssMinify: false, // Deactivate minify css
         minify: false, // Deactivate minify javascript
         rollupOptions: {
-            input: {
-                index: resolve(__dirname, "./src/index.html"),
-            },
+            input: ["src/index.pug.html"],
             output: {
                 entryFileNames: entryFileNames,
                 assetFileNames: processAssetFileNames,

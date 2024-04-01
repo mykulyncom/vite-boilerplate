@@ -1,5 +1,12 @@
-import nunjucks from "vite-plugin-nunjucks";
+import pug from "@vituum/vite-plugin-pug";
 
-const vitePlugins = [nunjucks()];
+const vitePlugins = [
+    pug({
+        root: "src/pug",
+        options: {
+            pretty: true,
+        },
+    }),
+];
 
 export default vitePlugins;
