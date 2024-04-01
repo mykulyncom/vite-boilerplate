@@ -1,6 +1,6 @@
 {
     "name": "vite-boilerplate",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "description": "A boilerplate for creating static web projects using Vite.js",
     "type": "module",
     "scripts": {
