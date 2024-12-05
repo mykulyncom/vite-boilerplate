@@ -1,7 +1,7 @@
-@import "./normalize";
-@import "./mixins";
-@import "./fonts";
-@import "./common";
+@use "./normalize";
+@use "./mixins" as *;
+@use "./fonts";
+@use "./common";
 
 .demo {
 	padding-top: 50px;
